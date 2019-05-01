@@ -27,7 +27,7 @@ namespace StringProgram
 
             sb.AppendFormat("The injustice of our people will no longer stand. ");
             sb.AppendFormat("We want to watch Game of Thrones without having to subscribe to HBO. ");
-            sb.AppendFormat("Upon this hill we fight and die for our principles with an anguished yell of \"{0}\"!!!s", battleCry);
+            sb.AppendFormat("Upon this hill we fight and die for our principles with an anguished yell of \"{0}\"!!!", battleCry);
             Console.WriteLine(sb);
 
             Console.ReadKey();

@@ -1,0 +1,6 @@
+C:\Users\hybou\OneDrive\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\IntegeratorProgram\IntegeratorProgram\bin\Debug\IntegeratorProgram.exe.config
+C:\Users\hybou\OneDrive\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\IntegeratorProgram\IntegeratorProgram\bin\Debug\IntegeratorProgram.exe
+C:\Users\hybou\OneDrive\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\IntegeratorProgram\IntegeratorProgram\bin\Debug\IntegeratorProgram.pdb
+C:\Users\hybou\OneDrive\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\IntegeratorProgram\IntegeratorProgram\obj\Debug\IntegeratorProgram.csproj.CoreCompileInputs.cache
+C:\Users\hybou\OneDrive\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\IntegeratorProgram\IntegeratorProgram\obj\Debug\IntegeratorProgram.exe
+C:\Users\hybou\OneDrive\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\IntegeratorProgram\IntegeratorProgram\obj\Debug\IntegeratorProgram.pdb

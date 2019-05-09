@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integerator2", "Integerator2\Integerator2.csproj", "{330D3C51-592D-408E-B85F-9480A0A27BAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{330D3C51-592D-408E-B85F-9480A0A27BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330D3C51-592D-408E-B85F-9480A0A27BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330D3C51-592D-408E-B85F-9480A0A27BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330D3C51-592D-408E-B85F-9480A0A27BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABAA090F-D80B-438B-A156-24E2AFE7251F}
+	EndGlobalSection
+EndGlobal

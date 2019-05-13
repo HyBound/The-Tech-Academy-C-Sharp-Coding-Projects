@@ -13,6 +13,32 @@ namespace Inheretor
         {
             Environment.Exit(id);
         }
-        
+
+        public static Boolean operator== (Employee employee, Employee employee2)
+        {
+            if (employee.id == employee2.id)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        public static Boolean operator!= (Employee employee, Employee employee2)
+        {
+            if (employee.id == employee2.id)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+
+        }
+
     }
 }

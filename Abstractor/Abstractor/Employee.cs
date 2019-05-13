@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Inheretor
 {
-    class Employee : Person
+    public class Employee : Person, IQuittable
     {
         public int id = 0;
+        public void Quit(Person person)
+        {
+            Environment.Exit(id);
+        }
         
     }
 }

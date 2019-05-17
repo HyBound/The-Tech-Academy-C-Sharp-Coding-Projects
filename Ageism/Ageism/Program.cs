@@ -19,9 +19,9 @@ namespace Ageism
                 {
                     Console.WriteLine("What is your age: ");
                     isSuccess = int.TryParse(Console.ReadLine(), out age);
+                    if (age < 0) isSuccess = false;
                     if (!isSuccess) Console.WriteLine("Please enter a real number.");
                 }
-                if (age < 0) throw new ArgumentException();
                 
                 var year = DateTime.Now.Year;
                 var zeroCheck = year / age;

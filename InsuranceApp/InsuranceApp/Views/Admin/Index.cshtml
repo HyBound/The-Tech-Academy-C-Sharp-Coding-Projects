@@ -1,0 +1,40 @@
+﻿@*@using InsuranceApp.ViewModels*@
+@model List<User>
+
+@{
+	ViewBag.Title = "Admin";
+}
+
+
+
+	<div class="row no-gutters m-3">
+		<div class="card col-sm-12 col-md-10 col-lg-10 mx-auto shadow">
+			<div class="card-header text-center">
+				<h5 class="m-0">Quotes</h5>
+			</div>
+			<div class="card-body">
+				@foreach (var user in Model)
+				{
+					using (Html.BeginForm("Unsubscribe", "Admin", FormMethod.Post))
+					{
+						<input type="hidden" name="Id" value="@user.Id" />
+						<div class="row mb-3">
+							<div class="col-2" placeholder="First Name">
+								@user.FirstName
+							</div>
+							<div class="col-2" placeholder="Last Name">
+								@user.LastName
+							</div>
+							<div class="col-3" placeholder="Email Address">
+								@user.EmailAddress
+							</div>
+							<div class="col" placeholder="Quote">
+								$@user.Total
+							</div>
+						</div>
+					}
+				}
+			</div>
+		</div>
+	</div>
+

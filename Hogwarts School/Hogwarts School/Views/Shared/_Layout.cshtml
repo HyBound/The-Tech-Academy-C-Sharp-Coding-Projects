@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewBag.Title - Hogwarts School of Witchcraft and Wizardry</title>
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+	<div class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+		<div class="navbar-inner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					@Html.ActionLink("Hogwarts School of Witchcraft and Wizardry", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+					<div class="nav-collapse collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav nav mr-auto">
+							<li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+							<li class="nav-item"><a href="~/Views/Student/Index.cshtml" class="nav-link">Student</a></li>
+							@*<li>@Html.ActionLink("Home", "Index", "Home")</li>
+							<li>@Html.ActionLink("About", "About", "Home")</li>
+							<li>@Html.ActionLink("Students", "Index", "Student")</li>
+							<li>@Html.ActionLink("Courses", "Index", "Course")</li>
+							<li>@Html.ActionLink("Instructors", "Index", "Instructor")</li>
+							<li>@Html.ActionLink("Departments", "Index", "Department")</li>*@
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		@RenderBody()
+		<hr />
+		<footer>
+			<p>&copy; @DateTime.Now.Year - Hogwarts School of WitchCraft and Wizardry</p>
+		</footer>
+	</div>
+
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	@RenderSection("scripts", required: false)
+</body>
+</html>
